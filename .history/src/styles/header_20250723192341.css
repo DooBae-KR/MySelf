@@ -1,0 +1,20 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Asta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .container {
+        display :flex;        
+    }
+
+    .headerLogo {
+        width: 100vw;
+        height: 200px;
+        background-color: #ddd;
+    }

@@ -1,0 +1,144 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Asta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .container {
+        display :flex;        
+    }
+
+    .headerLogo {
+        width: 100vw;
+        height: 100px;
+        justify-content: space-between;
+        padding: 0;
+        border-bottom: 2px solid #db8b23;
+    }
+    .logo{
+        padding: 15px;
+        margin-left: 10px;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        font-weight: bolder;
+        font-style: italic;
+        cursor: pointer;
+        align-items: center;
+    }
+    .logoTitle{
+        display: flex;
+        font-size: 50px;
+        align-items: center;
+
+        
+    }
+    .headerLogo input{
+        margin: 15px;
+        padding: 3px 5px;
+        border: 1px solid #db8b239d;
+        border-radius: 10px;
+
+    }
+
+    .A4.rec{
+        width: 1123px;
+        height: 794px;
+        border: 1px solid #aaaaaa11;
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 40px;
+        color:rgb(25, 139, 214);
+        font-weight: 700;
+        border-bottom: 1px solid rgb(25, 139, 214);
+    }
+    .content{
+        width: 100%;
+        flex-direction: column;
+        padding : 25px;
+    }
+    .contentTitle{
+        margin-bottom: 15px;
+        font-size: 24px;
+        font-weight: 700;
+        color:rgb(25, 139, 214);
+    }
+    .context {
+        gap: 5px;
+    }
+    .context p{
+        margin: 15px 7px 0px 7px;
+    }
+    .context strong{
+        margin-left: 15px;
+        font-weight: bold;
+    }
+    .line {
+        margin: 30px 0px;
+        border: 0.5px solid rgb(25, 139, 214);
+    }
+    
+    .myimg{
+        display: block;
+        margin: auto;
+        margin-left: 25px;
+        margin-right: 10px;
+        width: 150px;
+        height: 180px;
+        border-radius: 50%;
+        object-fit: cover;
+        overflow: hidden;
+        transform: translateX(15px);
+    }
+    .workTitle{
+        color: #333;
+    }
+    pre{
+        margin: 5px 0px 5px 30px;
+        white-space: pre-line;
+        
+    }
+    h2{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .work-item{
+        /* border-bottom: 2px dotted  rgba(25, 139, 214,0.8); */
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .work-item strong{
+        font-size: 18px;
+        margin: 10px 5px;
+    }
+    .container.col{
+        flex-direction: column;
+        width: 50%;
+        padding:10px;
+    }
+    .imgQr{
+        width: 100px;
+        height: 100px;
+        margin-left: 15px;
+        margin-bottom: 50px;
+    }
+    .htmltoPdfbtn{
+        position: absolute;
+        right: 23%;
+    }
+    .htmltoPdfbtn button{
+        border: none;
+        background-color: rgba(25, 138, 214, 0.808);
+        padding: 2px 5px;
+        color: #eee;
+        border-radius: 2px;
+    }
