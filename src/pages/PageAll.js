@@ -8,7 +8,7 @@ export default function CombinedResume(){
     return(
           <div className="container">
       <PageButton pdfRef={pdfRef} /> {/* ✅ 전달 */}
-      <div ref={pdfRef} >
+      <div ref={pdfRef} style={{margin:"0 auto"}}>
         <div className="page-section"><MySelf /></div>
         <div className="page-break" />
         <div className="page-section"><Project /></div>

@@ -17,7 +17,7 @@ function App() {
       <Route path={'/'} element={<MySelf/>} />
       <Route path={'/project'} element={<Project/>}/>
       <Route path={'/myIntro'} element={<MyIntroduce/>}/>
-      <Route path={'/page'} element={<PageAll/>}/>
+      <Route path={'/MySelf'} element={<PageAll/>}/>
     </Routes>
   </BrowserRouter>
   );
