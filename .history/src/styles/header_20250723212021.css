@@ -1,0 +1,84 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Asta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .container {
+        display :flex;        
+    }
+
+    .headerLogo {
+        width: 100vw;
+        height: 100px;
+        justify-content: space-between;
+        padding: 0;
+        border-bottom: 2px solid #db8b23;
+    }
+    .logo{
+        padding: 15px;
+        margin-left: 10px;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        font-weight: bolder;
+        font-style: italic;
+        cursor: pointer;
+        align-items: center;
+    }
+    .logoTitle{
+        display: flex;
+        font-size: 50px;
+        align-items: center;
+
+        
+    }
+    .headerLogo input{
+        margin: 15px;
+        padding: 3px 5px;
+        border: 1px solid #db8b239d;
+        border-radius: 10px;
+
+    }
+
+    .A4.rec{
+        width: 1123px;
+        height: 794px;
+        border: 1px solid #aaaaaa11;
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 40px;
+        color:rgb(25, 139, 214);
+        font-weight: 700;
+        border-bottom: 1px solid rgb(25, 139, 214);
+    }
+    .content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .contentTitle{
+        margin: 20px;
+        font-size: 24px;
+        color:rgb(25, 139, 214);
+    }
+    .context {
+        gap: 5px;
+    }
+    .context strong{
+        margin-left: 15px;
+        font-weight: bold;
+    }
+    .line {
+        margin: 20px;
+        border: 0.5px solid rgb(25, 139, 214);;
+    }
+    .myimg{
+        width: 150px;
+        height: 180px;
+    }

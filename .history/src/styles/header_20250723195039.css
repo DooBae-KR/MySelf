@@ -1,0 +1,39 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Asta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .container {
+        display :flex;        
+    }
+
+    .headerLogo {
+        width: 100vw;
+        height: 100px;
+        background-color: #efefef;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .logo{
+        padding: 15px;
+        margin-left: 10px;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        font-weight: bolder;
+        font-style: italic;
+        cursor: pointer;
+    }
+    .logoTitle{
+        font-size: 50px;
+        
+    }
+    .headerLogo input{
+        margin: 15px;
+    }
