@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MySelf/static/css/main.d8ac00d6.css",
-    "main.js": "/MySelf/static/js/main.f52e6002.js",
+    "main.js": "/MySelf/static/js/main.160efa91.js",
     "static/js/977.86f63dce.chunk.js": "/MySelf/static/js/977.86f63dce.chunk.js",
     "static/js/732.c8b86619.chunk.js": "/MySelf/static/js/732.c8b86619.chunk.js",
     "static/js/453.feaefce1.chunk.js": "/MySelf/static/js/453.feaefce1.chunk.js",
@@ -18,13 +18,13 @@
     "static/media/notion.jpg": "/MySelf/static/media/notion.bb68a314efcac2ede48e.jpg",
     "index.html": "/MySelf/index.html",
     "main.d8ac00d6.css.map": "/MySelf/static/css/main.d8ac00d6.css.map",
-    "main.f52e6002.js.map": "/MySelf/static/js/main.f52e6002.js.map",
+    "main.160efa91.js.map": "/MySelf/static/js/main.160efa91.js.map",
     "977.86f63dce.chunk.js.map": "/MySelf/static/js/977.86f63dce.chunk.js.map",
     "732.c8b86619.chunk.js.map": "/MySelf/static/js/732.c8b86619.chunk.js.map",
     "453.feaefce1.chunk.js.map": "/MySelf/static/js/453.feaefce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8ac00d6.css",
-    "static/js/main.f52e6002.js"
+    "static/js/main.160efa91.js"
   ]
 }
